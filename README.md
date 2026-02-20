@@ -43,6 +43,12 @@ Cardinality
 - If you click on the arrow icon, you will see cross filter direction as single
 - If the cardinality is one to one (1:1) , every corresponding value in the Fact table should match in the Dim table and vice versa. You will see the cross filter direction as both meaning it moves in both direction.
 
+DAX Measures
+- Go to the power query editor
+- Select Home tab -> Enter Data -> keep it blank -> Rename it as _Measure (so that it will come on the top of the data view when you close the power query editor) -> Close and Apply
+- In the front end of the power bi -> drop down on the above new measure folder that you have just created -> you will see a default empty column -> Right click on it ->  select "measures" and create the first DAX measure
+- Then right click on the default column and hide it
+
 Transform birth Date to Age
 - For instance if we want to transform birth date 1982 to age 44.
 - Go to Transform tab -> Format -> Add Prefix -> Value -> 1/1/ and then click OK button
