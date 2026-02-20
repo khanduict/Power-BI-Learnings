@@ -32,6 +32,15 @@ Modeling
 - Select only the column which we are going to bring in from the dim table. In this case, i am selecting the "department_key" and unselect "use original column name as prefix" box. Then click OK
 - You will see the keys for the unique department labels which you created in the dim table. Now you got the unique keys for the department, we no longer need to have "department and sub-department" fields in the fact table. We just need the department_key to join the Fact table to the Deparment dim table once we load everything. So select department and sub-department columns and remove it from the fact table.
 - Repeat the same process for creating a relationship between the Fact and the Dim Tables.
+- Close and Apply the power query
+- Go to the model view in the front end of power bi
+- Create a new tab e.g rename it as employee data layout
+- Arrange the Fact Table and Dim table accordingly
+
+Cardinality
+- Go to the model view
+- For instance, power bi has automatically created a relationship as 1 to Many because department_dim should only have one value for each department_key and multiple corresponding value in the fact table.
+- If you click on the arrow icon, you will see cross filter direction as single
 
 Transform birth Date to Age
 - For instance if we want to transform birth date 1982 to age 44.
