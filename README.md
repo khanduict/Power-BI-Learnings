@@ -65,6 +65,14 @@ Replacing values
 - Select replace values
 - Enter " Value to Find" and " Replace with"
 
+Grouping of Age
+- In the frontend (report  view) of power bi
+- select the age table -> right click -> New group -> it will open a new window
+- select group type as "List"
+- Group the age based on ranges e.g 10..19, 20...29, 30...39 etc
+- Rename the grouped range e.g 10 - 19, 20-29, 30-39
+- Click OK
+
 
  
   
