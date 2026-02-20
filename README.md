@@ -1,5 +1,6 @@
 # Power-BI-Learnings
 Power BI Learnings
+
 Uploading the data into Power BI
  - Create a new power bi report
  - Click on the Transform data icon and it will open power query editor
@@ -13,7 +14,8 @@ Uploading the data into Power BI
 - To keep the files organised, select all the files which are not going to load in the frontend of the power bi, right click and move to a New Group. Rename the group it as "Source Tables"
 - Now reference the files again from the "source table" to create Fact Tables and donot turn off the "enable load". Move it to a new group such as "Production Tables". This will be visible  on the frontend of the power bi.
 
-  Modeling
+
+Modeling
 - Create a new "dim table" by referencing from the "source table"
 - Rename the file (e.g department_dim)
 - Select the "department" and "sub-department" and remove all other columns and also remove the duplicates by selecting both the columns
