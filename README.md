@@ -32,5 +32,14 @@ Modeling
 - Select only the column which we are going to bring in from the dim table. In this case, i am selecting the "department_key" and unselect "use original column name as prefix" box. Then click OK
 - You will see the keys for the unique department labels which you created in the dim table. Now you got the unique keys for the department, we no longer need to have "department and sub-department" fields in the fact table. We just need the department_key to join the Fact table to the Deparment dim table once we load everything. So select department and sub-department columns and remove it from the fact table.
 - Repeat the same process for creating a relationship between the Fact and the Dim Tables.
+
+Transform Dates
+- For instance if we want to transform birth date 1982 to age 44.
+- Go to Transform tab -> Format -> Add Prefix -> Value -> 1/1/ and then click OK button
+- Go to Transform tab -> Date Type -> Date
+- Go to Transform tab -> Date -> Age
+- Go to Transform tab -> Duration -> Total Years
+- Go to Transform tab -> Date Type -> Whole Numbers
+  
  
   
