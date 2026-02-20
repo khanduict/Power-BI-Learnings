@@ -41,6 +41,7 @@ Cardinality
 - Go to the model view
 - For instance, power bi has automatically created a relationship as 1 to Many because department_dim should only have one value for each department_key and multiple corresponding value in the fact table.
 - If you click on the arrow icon, you will see cross filter direction as single
+- If the cardinality is one to one (1:1) , every corresponding value in the Fact table should match in the Dim table and vice versa. You will see the cross filter direction as both meaning it moves in both direction.
 
 Transform birth Date to Age
 - For instance if we want to transform birth date 1982 to age 44.
