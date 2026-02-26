@@ -120,4 +120,5 @@ How to create a Measure Table
 
     Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear 
     -> No need to enter any data -> Just Name the Table as '_Measure' -> click OK
+![creating measure](https://github.com/user-attachments/assets/307b307e-5c29-4283-b742-1b38ad4ad8b1)
 
