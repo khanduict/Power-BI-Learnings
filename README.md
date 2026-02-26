@@ -104,10 +104,15 @@ Power BI Learnings
  - Go to Add column -> Time -> drop down and select "hour"  
   ![Adding hour](https://github.com/user-attachments/assets/7a01d623-cdfb-4e2f-9d95-6a504c6e5ef9)
 
-#### Adding month, day, week column
+##### Adding month, day, week column
 - Select the date column
 - Click on Add column tab -> Date -> Month (depending on the requirement whether you want to add day, month or year)
 ![adding month](https://github.com/user-attachments/assets/9490b7db-b0c1-401a-8707-f6d298d87fc5)
+
+##### Extracting characters
+- Go to Add column tab - Extract - drop down and select first characters -> enter the characters and click ok
+![extract characters](https://github.com/user-attachments/assets/dee933f9-f5ac-4e7d-ac4d-9782dc3484c5)
+
 
 
 
