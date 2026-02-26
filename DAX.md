@@ -1,5 +1,8 @@
 
-#### Adding new column 
-- E.g if we have two columns namely "price" and "rate" and we want to calculate the total amount, we can do this by multiplying price and rate and it will give total amount (price * rate = total amount)
-  -To do this, Select "price" and "rate" columns 
-  - Go to Add column tab -> click on 'Standard" icon -> select multiply (it will create a new column for total amount)
+
+###  DAX
+How to create a Measure Table
+
+    Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear 
+    -> No need to enter any data. It is just going to hold the measures -> Just Name the Table as '_01_Core_Measures' -> click OK
+![creating measure](https://github.com/user-attachments/assets/12db0371-dad5-40a4-930a-339fe82ed9b9)
