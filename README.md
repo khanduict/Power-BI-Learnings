@@ -99,4 +99,16 @@ Power BI Learnings
 - Go to Add column tab -> click on 'Standard" icon -> select multiply (it will create a new column for total amount)
   ![adding column- multiplication](https://github.com/user-attachments/assets/78411086-fb51-429b-8e96-e70459ce15d9)
 
-  
+##### Adding new column hour from time
+ - Select the time column (which has time format as  7:30:55 AM.. now want to change to hours(7 hours))
+ - Go to Add column -> Time -> drop down and select "hour"  
+  ![Adding hour](https://github.com/user-attachments/assets/7a01d623-cdfb-4e2f-9d95-6a504c6e5ef9)
+
+#### Adding month, day, week column
+- Select the date column
+- Click on Add column tab -> Date -> Month (depending on the requirement whether you want to add day, month or year)
+![adding month](https://github.com/user-attachments/assets/9490b7db-b0c1-401a-8707-f6d298d87fc5)
+
+
+
+
