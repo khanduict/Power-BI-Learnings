@@ -117,6 +117,7 @@ Power BI Learnings
    Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear -> No need to enter any data -> Just Name the Table as '_Measure' -> click OK
 
 #####  DAX
+-How to create a Measure Table
 
     Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear -> No need to enter any data -> Just Name the Table as '_Measure' -> click OK
 
