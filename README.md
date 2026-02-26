@@ -117,4 +117,6 @@ Power BI Learnings
 How to create a "Measure" table
    Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear -> No need to enter any data -> Just Name the Table as '_Measure' -> click OK
 
-
+#####  Database to manage stage objects, fileformats etc.
+    CREATE OR REPLACE DATABASE manage_db;
+    CREATE OR REPLACE SCHEMA external_stages;
