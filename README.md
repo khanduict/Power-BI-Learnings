@@ -119,6 +119,9 @@ Power BI Learnings
 How to create a Measure Table
 
     Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear 
-    -> No need to enter any data -> Just Name the Table as '_Measure' -> click OK
-![creating measure](https://github.com/user-attachments/assets/307b307e-5c29-4283-b742-1b38ad4ad8b1)
+    -> No need to enter any data. It is just going to hold the measures -> Just Name the Table as '_Measures' -> click OK
+![creating measure](https://github.com/user-attachments/assets/0a2b883a-335d-432c-bc85-4f0af037b3d5)
+
+
+
 
