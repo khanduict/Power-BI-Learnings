@@ -73,6 +73,25 @@ Grouping of Age
 - Rename the grouped range e.g 10 - 19, 20-29, 30-39
 - Click OK
 
+Creating Parameter (Slicer)
+- Select Modeling tab -> New Parameter -> Fields -> Add the fields that you want to show in the slicer page -> You can also reorder as per your requirement -> Create
+
+Creating Button
+- Go to 'Insert' -> click on button tab -> select a 'blank' button -> Turn off icon and border -> Turn on 'Text' -> Paste the symbol for the button which you copied from internet under 'Text' field
+- Change 'state' to 'on-hover' (so that when you hover over the button, it will highlight the button -> change the color of the button to 'orange' or any other color of your choice so that it appears distinctively
+
+Create a Slicer Menu
+- First create a background
+  - Go to Insert tab
+  - Click on shapes
+  - Select a rectangular shape
+  - Drag and place it in a corner
+  - Stretch it out so that you can add the slicer menu later
+  - Increase the transparency % so that you can see the background
+- Add the Slicer Menu
+   - click on the 'slicer' icon
+   - Add 'age group', gender, department, education, job level under separate slicers
+     *Note - First create one slicer menu. For example 'age group'. Then change slicer settings to dropdown, change slicer header color, change slicer values font color, change slicer background color to 'White'
 
  
   
