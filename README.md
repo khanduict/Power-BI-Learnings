@@ -1,7 +1,7 @@
 # Power-BI-Learnings
 Power BI Learnings
 
-Uploading the data into Power BI
+### Uploading the data into Power BI
  - Create a new power bi report
  - Click on the Transform data icon and it will open power query editor
  - Under home tab, click on the New Source button, Drop down and click on the "More" tab
@@ -15,7 +15,7 @@ Uploading the data into Power BI
 - Now reference the files again from the "source table" to create Fact Tables and donot turn off the "enable load". Move it to a new group such as "Production Tables". This will be visible  on the frontend of the power bi.
 
 
-Modeling
+### Modeling
 - Create a new "dim table" by referencing from the "source table"
 - Rename the file (e.g department_dim)
 - Select the "department" and "sub-department" and remove all other columns and also remove the duplicates by selecting both the columns
@@ -37,19 +37,19 @@ Modeling
 - Create a new tab e.g rename it as employee data layout
 - Arrange the Fact Table and Dim table accordingly
 
-Cardinality
+### Cardinality
 - Go to the model view
 - For instance, power bi has automatically created a relationship as 1 to Many because department_dim should only have one value for each department_key and multiple corresponding value in the fact table.
 - If you click on the arrow icon, you will see cross filter direction as single
 - If the cardinality is one to one (1:1) , every corresponding value in the Fact table should match in the Dim table and vice versa. You will see the cross filter direction as both meaning it moves in both direction.
 
-DAX Measures
+### DAX Measures
 - Go to the power query editor
 - Select Home tab -> Enter Data -> keep it blank -> Rename it as _Measure (so that it will come on the top of the data view when you close the power query editor) -> Close and Apply
 - In the front end of the power bi -> drop down on the above new measure folder that you have just created -> you will see a default empty column -> Right click on it ->  select "measures" and create the first DAX measure
 - Then right click on the default column and hide it
 
-Transform birth Date to Age
+### Transform birth Date to Age
 - For instance if we want to transform birth date 1982 to age 44.
 - Go to Transform tab -> Format -> Add Prefix -> Value -> 1/1/ and then click OK button
 - Go to Transform tab -> Date Type -> Date
@@ -57,15 +57,15 @@ Transform birth Date to Age
 - Go to Transform tab -> Duration -> Total Years
 - Go to Transform tab -> Date Type -> Whole Numbers
 
-Transform Income from whole number to dollar
+### Transform Income from whole number to dollar
 - Go to Transform tab -> Data Type -> select Fixed Decimal Number
 
-Replacing values
+### Replacing values
 - Right click on that particular field
 - Select replace values
 - Enter " Value to Find" and " Replace with"
 
-Grouping of Age
+### Grouping of Age
 - In the frontend (report  view) of power bi
 - select the age table -> right click -> New group -> it will open a new window
 - select group type as "List"
@@ -73,14 +73,14 @@ Grouping of Age
 - Rename the grouped range e.g 10 - 19, 20-29, 30-39
 - Click OK
 
-Creating Parameter (Slicer)
+### Creating Parameter (Slicer)
 - Select Modeling tab -> New Parameter -> Fields -> Add the fields that you want to show in the slicer page -> You can also reorder as per your requirement -> Create
 
-Creating Button
+### Creating Button
 - Go to 'Insert' -> click on button tab -> select a 'blank' button -> Turn off icon and border -> Turn on 'Text' -> Paste the symbol for the button which you copied from internet under 'Text' field
 - Change 'state' to 'on-hover' (so that when you hover over the button, it will highlight the button -> change the color of the button to 'orange' or any other color of your choice so that it appears distinctively
 
-Create a Slicer Menu
+### Create a Slicer Menu
 - First create a background
   - Go to Insert tab
   - Click on shapes
