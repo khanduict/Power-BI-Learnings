@@ -1,6 +1,6 @@
 
 
-###  DAX
+###  DAX (Data Analysis Expressions)
 How to create a Measure Table
 
     Go to power query editor -> select the Transform tab -> click on the "enter data" -> A new window will appear 
