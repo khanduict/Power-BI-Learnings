@@ -25,15 +25,22 @@ DAX Measures
 
     DISTINCTCOUNT()
     - it is used to count the number of distinct values in a column
-    total sales = distinctcount(sales[sales_Id])
+    total transaction = distinctcount(sales[sales_Id])
+
+    COUNT()
+    total products = count(product_dim[product_id])
 
     SUM()
     total sales = sum(sales[total sales])
 
     AVERAGE()
     average order size = average(sales[total sales])
-
+    or
+    DIVIDE()
+    average order size = divide([total sales], [total transactions])
     
+    
+
     
 In order to format the values to show in dollars and coma separated, select that particular measure and under measure tools, select currency, click on the $ symbol , coma icon and select the decimal place that you require as shown below
 ![formating values](https://github.com/user-attachments/assets/5d42c83e-246d-445a-8855-8bb89fab95f1)
