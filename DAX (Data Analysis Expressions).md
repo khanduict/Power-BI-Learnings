@@ -21,9 +21,11 @@ How to create a Measure Table
 ![creating measure](https://github.com/user-attachments/assets/12db0371-dad5-40a4-930a-339fe82ed9b9)
 
 
-DAX Functions
+DAX Measures 
 
     DISTINCTCOUNT()
     - it is used to count the number of distinct values in a column
-    *total sales = distinctcount(sales[sales_Id])*
+    total sales = distinctcount(sales[sales_Id])
     
+In order to format the values to show in dollars and coma separated, select that particular measure and under measure tools, click on the $ symbol , coma icon and select the decimal place that you require as shown below
+![formating values](https://github.com/user-attachments/assets/5d42c83e-246d-445a-8855-8bb89fab95f1)
