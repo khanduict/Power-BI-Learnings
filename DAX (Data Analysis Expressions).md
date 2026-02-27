@@ -25,4 +25,5 @@ DAX Functions
 
     DISTINCTCOUNT()
     - it is used to count the number of distinct values in a column
+    *total sales = distinctcount(sales[sales_Id])*
     
