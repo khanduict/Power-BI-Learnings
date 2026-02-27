@@ -30,7 +30,10 @@ DAX Measures
     SUM()
     total sales = sum(sales[total sales])
 
+    AVERAGE()
+    average order size = average(sales[total sales])
+
     
     
-In order to format the values to show in dollars and coma separated, select that particular measure and under measure tools, click on the $ symbol , coma icon and select the decimal place that you require as shown below
+In order to format the values to show in dollars and coma separated, select that particular measure and under measure tools, select currency, click on the $ symbol , coma icon and select the decimal place that you require as shown below
 ![formating values](https://github.com/user-attachments/assets/5d42c83e-246d-445a-8855-8bb89fab95f1)
