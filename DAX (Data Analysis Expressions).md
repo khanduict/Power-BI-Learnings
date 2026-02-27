@@ -39,7 +39,8 @@ DAX Measures
     DIVIDE()
     average order size = divide([total sales], [total transactions])
     
-    
+    RANKX()
+    product sales rank = rankx(
 
     
 In order to format the values to show in dollars and coma separated, select that particular measure and under measure tools, select currency, click on the $ symbol , coma icon and select the decimal place that you require as shown below
