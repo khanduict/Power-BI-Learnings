@@ -1,15 +1,15 @@
-
-   DateTable = 
-   ADDCOLUMNS ( 
-   CALENDAR(MINX('sales','sales'[date]),MAXX('sales','sales'[date])),
-   "DateAsInteger", FORMAT ( [date], "YYYYMMDD" ),
-    "Year", YEAR ( [date] ), "MonthNo", FORMAT ( [date], "MM" ), 
-   "YearMonthNo", FORMAT ( [date], "YYYY/MM" ), 
-   "YearMonth", FORMAT ( [date], "YYYY/mmm" ), 
-   "MonthShort", FORMAT ( [date], "mmm" ),
-   "MonthLong", FORMAT ( [date], "mmmm" ), 
-   "WeekNo", WEEKDAY ( [date] ), 
-   "WeekDay", FORMAT ( [date], "dddd" ), 
-   "WeekDayShort", FORMAT ( [date], "ddd" ), 
-   "Quarter", "Q" & FORMAT ( [date], "Q" ), 
-   "YearQuarter", FORMAT ( [date], "YYYY" ) & "/Q" & FORMAT ( [date], "Q" ))
+   
+      DateTable = 
+      ADDCOLUMNS ( 
+      CALENDAR(MINX('sales','sales'[date]),MAXX('sales','sales'[date])),
+      "DateAsInteger", FORMAT ( [date], "YYYYMMDD" ),
+       "Year", YEAR ( [date] ), "MonthNo", FORMAT ( [date], "MM" ), 
+      "YearMonthNo", FORMAT ( [date], "YYYY/MM" ), 
+      "YearMonth", FORMAT ( [date], "YYYY/mmm" ), 
+      "MonthShort", FORMAT ( [date], "mmm" ),
+      "MonthLong", FORMAT ( [date], "mmmm" ), 
+      "WeekNo", WEEKDAY ( [date] ), 
+      "WeekDay", FORMAT ( [date], "dddd" ), 
+      "WeekDayShort", FORMAT ( [date], "ddd" ), 
+      "Quarter", "Q" & FORMAT ( [date], "Q" ), 
+      "YearQuarter", FORMAT ( [date], "YYYY" ) & "/Q" & FORMAT ( [date], "Q" ))
