@@ -16,6 +16,10 @@ Power BI Learnings
 
 
 ### Modeling
+FACT TABLE
+DIMENSION TABLE 
+A fact table stores quantitative data for analysis, such as sales transactions, while a dimension table contains descriptive attributes, like customer demographics, that provide context for the facts.
+
 - Create a new "dim table" by referencing from the "source table"
 - Rename the file (e.g department_dim)
 - Select the "department" and "sub-department" and remove all other columns and also remove the duplicates by selecting both the columns
