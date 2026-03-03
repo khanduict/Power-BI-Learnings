@@ -12,12 +12,14 @@ There are 3 types of DAX calculation namely
     
 
 ##### Calculated columns
+this computes values row-by-row during data refresh and stores them in the model.
 The formula is evaluated for each table row and it returns a single value. When added to an Import storage mode table, the formula is evaluated when the semantic model is refreshed, and it increases the storage size of your model. When added to a DirectQuery storage mode table, the formula is evaluated by the underlying source database when the table is queried.
 - It creates a physical data column
 - Increases the storage size
 - Can prolong data refresh time
 
 #### Measures
+Computed on-the-fly at query time (runtime) based on user interaction (slicers/filters). It does not take up storage space and is best for numerical aggregations
 The formula achieves summarization over model data. Similar to a calculated column, the formula must return a single value. However, unlike calculated columns, which are evaluated at data refresh time, measures are evaluated at query time. Their results are never stored in the model.
 #### How to create a Measure Table
 
