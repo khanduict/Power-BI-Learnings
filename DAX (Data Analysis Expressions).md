@@ -67,6 +67,8 @@ In order to format the values to show in dollars and coma separated, select that
 
 
 
+
+### How to create a DATE TABLE .. Below is the template to create a new DATE TABLE
             DateTable = 
           ADDCOLUMNS ( 
           CALENDAR(MINX('sales','sales'[date]),MAXX('sales','sales'[date])),
