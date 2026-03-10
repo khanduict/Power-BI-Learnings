@@ -52,3 +52,11 @@ The formula achieves summarization over model data. Similar to a calculated colu
     
 In order to format the values to show in dollars and coma separated, select that particular measure and under measure tools, select currency, click on the $ symbol , coma icon and select the decimal place that you require as shown below
 ![formating values](https://github.com/user-attachments/assets/5d42c83e-246d-445a-8855-8bb89fab95f1)
+
+
+
+
+        CALENDARAUTO Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is calculated automatically based on data in the model.	CALENDARAUTO([fiscal_year_end_month])
+        CALENDAR Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is from the specified start date to the specified end date, inclusive of those two dates.	CALENDAR(<start_date>, <end_date>)
+        <img width="1112" height="101" alt="image" src="https://github.com/user-attachments/assets/d508253f-ef72-43b0-95e1-ce92e4532e29" />
+
