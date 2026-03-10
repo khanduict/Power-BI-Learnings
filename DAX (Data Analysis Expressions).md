@@ -96,6 +96,6 @@ In order to format the values to show in dollars and coma separated, select that
 | Syntax | Description | 
 |---|---|
 |AVERAGE( ) | example  - Average sales quantity = AVERAGE(sales[quantity]) |
-|  CALENDAR(<start_date>, <end_date>) |  CALENDAR Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is from the specified start date to the specified end date, inclusive of those two dates. |
+|  MAX ( ) |  example - calculating the maximum value of a column - Maximu of sales quantity = MAX (sales [quantity]) |
       
 
