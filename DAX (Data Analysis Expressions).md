@@ -55,10 +55,10 @@ In order to format the values to show in dollars and coma separated, select that
 
 
 
-| Header 1 | Header 2 | Header 3 |
-|---|---|---|
+| Syntax | Description | 
+|---|---|
 |CALENDARAUTO([fiscal_year_end_month]) | CALENDARAUTO Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is calculated automatically based on data in the model.|
-
+|  CALENDAR(<start_date>, <end_date>) |  CALENDAR Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is from the specified start date to the specified end date, inclusive of those two dates. |
         CALENDARAUTO Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is calculated automatically based on data in the model.	
         CALENDARAUTO([fiscal_year_end_month])
         CALENDAR Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is from the specified start date to the specified end date, inclusive of those          two dates.	
