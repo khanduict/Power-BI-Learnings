@@ -28,7 +28,7 @@ The formula achieves summarization over model data. Similar to a calculated colu
 ![creating measure](https://github.com/user-attachments/assets/12db0371-dad5-40a4-930a-339fe82ed9b9)
 
 
-*#NOTE - Always keep all the DAX measures under one table. In the front end, under the HOME tab, click on "enter data" . There is no need to enter any data. Just name the table as _Key Measures Tables and click on the load. You will see the table. Now right click on that table and create new measures.
+*NOTE - Always keep all the DAX measures under one table. In the front end, under the HOME tab, click on "enter data" . There is no need to enter any data. Just name the table as _Key Measures Tables and click on the load. You will see the table. Now right click on that table and create new measures.
 Alternately, you can also create measure table in the power query editor as well.*
 
 #### DAX Measures 
