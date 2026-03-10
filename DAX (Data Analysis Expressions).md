@@ -61,7 +61,7 @@ In order to format the values to show in dollars and coma separated, select that
 |---|---|
 |CALENDARAUTO([fiscal_year_end_month]) | The date range returned is dates between the begining of the fiscal year associated with MinDate and the end of the fiscal year associated with MaxDate|
 |  CALENDAR(<start_date>, <end_date>) |  CALENDAR Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is from the specified start date to the specified end date, inclusive of those two dates. |
-|CALENDARAUTO() | In this example, the MinDate and MaxDate in the data model are July , 2010 and June 30, 2011 ...Return all dates between January 1, 2010 and December 31, 2011 |
+|CALENDARAUTO() | In this example, the MinDate and MaxDate in the data model are July 1, 2010 and June 30, 2011 ...Return all dates between January 1, 2010 and December 31, 2011 |
 |CALENDERAUTO(3) | Return all dates between March 1, 2010 and February 28, 2012) |
 
 
