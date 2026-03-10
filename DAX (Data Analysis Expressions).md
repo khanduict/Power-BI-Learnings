@@ -55,6 +55,8 @@ In order to format the values to show in dollars and coma separated, select that
 
 
 
+# DAX 
+
 | Syntax | Description | 
 |---|---|
 |CALENDARAUTO([fiscal_year_end_month]) | CALENDARAUTO Function (DAX)	Returns a table with a single column named “Date” that contains a contiguous set of dates. The range of dates is calculated automatically based on data in the model.|
