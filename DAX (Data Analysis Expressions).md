@@ -97,5 +97,8 @@ In order to format the values to show in dollars and coma separated, select that
 |---|---|
 |AVERAGE( ) | example  - Average sales quantity = AVERAGE(sales[quantity]) |
 |  MAX ( ) |  example - calculating the maximum value of a column - Maximum of sales quantity = MAX (sales [quantity]) |
+|SUM ( ) | calculating the sum of quantity - for example - Sample measure = SUM(sales[quantity]) |
+| COUNT ( ) | 
+
       
 
