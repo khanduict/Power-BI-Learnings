@@ -96,6 +96,6 @@ In order to format the values to show in dollars and coma separated, select that
 | Syntax | Description | 
 |---|---|
 |AVERAGE( ) | example  - Average sales quantity = AVERAGE(sales[quantity]) |
-|  MAX ( ) |  example - calculating the maximum value of a column - Maximu of sales quantity = MAX (sales [quantity]) |
+|  MAX ( ) |  example - calculating the maximum value of a column - Maximum of sales quantity = MAX (sales [quantity]) |
       
 
