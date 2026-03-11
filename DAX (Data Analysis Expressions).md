@@ -146,17 +146,12 @@ Solution 2:
 Average profit = AVERAGEX(products,products[price]*products[profit margine])
 
 
-
-
 Question 3:
 What is the total quantity of our sales?
 Answer:  35377.
 
 Solution 3:
 Sum of quantity = SUM( sales[quantity] )
-
-
-
 
 Question 4 (a bit more difficult):
 What is the total profit of our sold products?
@@ -167,7 +162,6 @@ Answer:  27.612,70$.
 Solution 4:
 Total of profit = SUMX(sales, sales[price] * sales[quantity] * RELATED( products[profit margine] ))
 
-
 Question 5 (also a bit more difficult):
 What is the average tax amount we pay in our sales?
 Hint: Use the RELATED function for the tax rate and the AVERAGEX function in the sales table.
@@ -176,6 +170,8 @@ Answer:  1,42$.
 Solution 5:
 Average Tax amount = AVERAGEX(sales, sales[price] * sales[quantity] * RELATED(products[tax rate]))
 
+
+# Filter context vs Row context
 
 
 
