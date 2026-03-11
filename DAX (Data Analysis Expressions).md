@@ -177,6 +177,7 @@ Average Tax amount = AVERAGEX(sales, sales[price] * sales[quantity] * RELATED(pr
         Revenue filtered by a state = CALCULATE ([Revenue Measure], location[state] = "Utan"
         Revenue filtered by a state = CALCULATE([Revenue Measure], FILTER(location , location[state] = "Utah"))
         SampleFilterTable = FILTER( products, products[price] > 5 )
+        Revenue filtered by a state = CALCULATE (['Revenue Measure], FILTER (location, location[state] = "Utah"))
         
         
         
