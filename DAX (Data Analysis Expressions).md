@@ -117,6 +117,59 @@ For e.g sample column = if (sampleTable[sampleColumn] = " ", BLANK(), SampleTabl
 | AVERAGEX( ) | similary we can use AVERAGEX ( ) function using measures |
 
 
+Exercise
+### SUMX vs. SUM and AVERAGEX vs AVERAGE
+The AVERAGEX function works just like the SUMX function.
+Sometimes you have to use the RELATED function as well.
+
+Question 1:
+
+What is the average price of our products?
+Would you use the AVERAGE or AVERAGEX function?
+Hint: The "amount" of sales is NOT considered, so each product is considered equally.
+Answer: 3,88.
+Solution 1:
+Average Product Price = AVERAGE( products[price] )
+
+
+Question 2 (more difficult):
+What is the average profit of our sold products?
+(not considering how many of these are sold, so that in average every product is just counted once)
+Would you use the Average or AverageX Function?
+Hint 1: Amount of sales should not be considered.
+Hint 2: Work on the products table
+Hint 3: profit = price * profit margin
+Answer: 0,78$.
+Solution 2:
+Average profit = AVERAGEX(products,products[price]*products[profit margine])
+
+
+
+
+Question 3:
+What is the total quantity of our sales?
+Answer:  35377.
+Solution 3:
+Sum of quantity = SUM( sales[quantity] )
+
+
+
+
+Question 4 (a bit more difficult):
+What is the total profit of our sold products?
+Hint 1: SUM or SUMX?
+Hint 2: Use the RELATED function.
+Answer:  27.612,70$.
+Solution 4:
+Total of profit = SUMX(sales, sales[price] * sales[quantity] * RELATED( products[profit margine] ))
+
+
+Question 5 (also a bit more difficult):
+What is the average tax amount we pay in our sales?
+Hint: Use the RELATED function for the tax rate and the AVERAGEX function in the sales table.
+Answer:  1,42$.
+Solution 5:
+Average Tax amount = AVERAGEX(sales, sales[price] * sales[quantity] * RELATED(products[tax rate]))
 
 
 
