@@ -174,6 +174,10 @@ Average Tax amount = AVERAGEX(sales, sales[price] * sales[quantity] * RELATED(pr
 # Filter context vs Row context
 
         Revenue LastYear = CALCULATE('key measures table'[Revenue Measure], SAMEPERIODLASTYEART(DateTable[Date]))
+        Revenue filtered by a state = CALCULATE ([Revenue Measure], location[state] = "Utan"
+        Revenue Filtered by a state = CALCULATE([Revenue Measure], FILTER(location , location[state] = "Utah"))
+        
+        
 
 
 
