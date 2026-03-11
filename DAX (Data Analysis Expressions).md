@@ -173,8 +173,7 @@ Average Tax amount = AVERAGEX(sales, sales[price] * sales[quantity] * RELATED(pr
 
 # Filter context vs Row context
 
-
-
+        Revenue LastYear = CALCULATE('key measures table'[Revenue Measure], SAMEPERIODLASTYEART(DateTable[Date]))
 
 
 
