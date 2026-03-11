@@ -89,6 +89,9 @@ In order to format the values to show in dollars and coma separated, select that
 
             
             
+if statement 
+if the condition is true then we put this one otherwise show this one
+For e.g sample column = if (sampleTable[sampleColumn] = " ", BLANK(), SampleTable[SampleColumn])
 
 
 # DAX - Aggregation function
@@ -98,7 +101,74 @@ In order to format the values to show in dollars and coma separated, select that
 |AVERAGE( ) | example  - Average sales quantity = AVERAGE(sales[quantity]) |
 |  MAX ( ) |  example - calculating the maximum value of a column - Maximum of sales quantity = MAX (sales [quantity]) |
 |SUM ( ) | calculating the sum of quantity - for example - Sample measure = SUM(sales[quantity]) |
-| COUNT ( ) | 
+| COUNT ( ) | e.g sample measure count = COUNT(sampleTable[sampleColumn])  ..it will not count rows which are blank...|
+| COUNTROWS( ) | e.g sample measure count = COUNTROWS(sampleTable[sampleColumn])  ..it will count all the rows in table including blanks |
+| COUNTA( ) | The function COUNT( ) cannot work with values of type Boolean (true or false)..In this case, we have use to use COUNTA( ) ..e.g sample measure count = COUNTA(sampleTable[sampleColumn]) |
+| DISTINCTCOUNT ( ) | The function DISTINCTCOUNT( ) will count all the distinct values including the empty values ..e.g sample measure count = DISTINCTCOUNT(sampleTable[sampleColumn]) |
+| COUNTBLANK( ) | The function COUNTBLANK( ) counts the blank values e.g sample measure count = BLANKCOUNT(sampleTable[sampleColumn]) |
+| AVERAGE ( ) or COUNTAX ( ) | the function AVERAGE( ) counts the average values howeever we can also use COUNTAX( ) |
+
+
+# DAX - Different version of Aggregation function with "X" in the end
+
+| Syntax | Description | 
+|---|---|
+|SUMX( ) | example  - in calculated column we can can write the formula as revenue = sales[quantity] * sales[price].. in the measures  we cannot write  like this  revenue measure = SUM(sales[quantity]) * SUM(sales[price])..this is wrong ...the result is not correct... we have to use SUMX( )..what this will do is first it take the multiplication of quantity and price (e.g revenue = sales[quantity] * sales[price] and then take the SUM ..e.g Revenue measure = SUMX(table, expression)  ..revenue measure = SUMX(sales, sales[quantity] * sales[price])..what it does is, first it calculates at the row level and then it is stored in the memory then it takes the SUM |
+| AVERAGEX( ) | similary we can use AVERAGEX ( ) function using measures |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       
 
